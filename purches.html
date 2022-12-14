@@ -17,24 +17,24 @@
     </nav>
 
     <main>
-        <h2>Koka's Products</h2>
-        <div>
-            <img src="jellies1.jpg" alt="jellies 1" height="225" width="200">
-        </div>
-        <p>
-            If you are looking for something sweet and spicy we have the treat for you.
-            We have many different flavors and rotating seasonal Products. Whether you
-            are looking for something mild, hot, sweet, or sour we have something for you.
-        </p>
-        <p>Different uses for our jellies</p>
-        <ul>
-            <li>cracker and cream cheese</li>
-            <li>glazing chicken</li>
-            <li>eggs and tost</li>
-        </ul>
-        <div>
-            <img src="jellies2.jpg" alt="jellies2">
-        </div>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <label for="FirstName">First Name: </label>
+            <input type="text" name="FirstName" id="FirstName" required="required">
+
+            <label for="LastName">Last Name: </label>
+            <input type="text" name="LastName" id="LastName" required="required">
+
+            <label for="email">E-mail: </label>
+            <input type="email" name="email" id="email" required="required">
+
+            <label for="nights">Amount: </label>
+            <input type="number" name="nights" id="nights" min="1" max="30">
+
+            <label for="myComments">Flavors</label>
+            <textarea name="myComments" id="myComments" rows="2" cols="30"></textarea>
+
+            <input type="submit">
+        </form>
         <div>
             Koka's Kreations<br/>
             1373 Prestwick DR<br/>
